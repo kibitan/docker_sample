@@ -33,3 +33,18 @@
 
 #### stop container
 `docker container stop`
+
+
+### registry
+
+#### tag
+
+`docker tag image username/repository:tag`
+
+#### publish
+
+`docker push username/repository:tag`
+
+#### run from docker hub
+
+`docker run -p 4000:80 kibitan/get-started:part2`
