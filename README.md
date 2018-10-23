@@ -9,7 +9,7 @@
  > This port remapping of 4000:80 demonstrates the difference between EXPOSE within the Dockerfile and what the publish value is set to when running docker run -p. In later steps, map port 4000 on the host to port 80 in the container and use http://localhost.
 
 
-## Cheetsheet
+## Cheetsheet - container
 
 ### images
 
@@ -48,3 +48,22 @@
 #### run from docker hub
 
 `docker run -p 4000:80 kibitan/get-started:part2`
+
+
+## Cheetsheet - service
+
+### deploy
+
+`docker stack deploy -c docker-compose.yml app_name`
+
+### ls
+
+`docker service ls`
+
+### list tasks
+
+`docker service ps app_name`
+
+### down a app
+
+`docker stack rm getstartedlab`
