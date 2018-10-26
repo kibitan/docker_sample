@@ -6,6 +6,9 @@
 
 - GUI for docker container: [Kitematic](https://kitematic.com/)
 
+# useful link
+- [Best practices for writing Dockerfiles | Docker Documentation](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
+
 ## questions
 - [What is the difference between "expose" and "publish" in Docker? - Stack Overflow](https://stackoverflow.com/questions/22111060/what-is-the-difference-between-expose-and-publish-in-docker)
 
@@ -44,6 +47,9 @@ $ docker run --rm -it builddebug /bin/bash
 
 #### run container in background
 `docker run -d -p 4000:80 friendlyhello`
+
+#### debug
+`docker run --rm -it friendlyhello bash`
 
 #### see current cuntainers
 `docker container ls`
