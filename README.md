@@ -61,6 +61,11 @@ $ docker run --rm -it builddebug /bin/bash
 #### stop container
 `docker container stop`
 
+#### history of layers
+`docker history friendlyhello`
+
+- [docker history | Docker Documentation](https://docs.docker.com/engine/reference/commandline/history/)
+
 
 ### registry
 
