@@ -8,8 +8,21 @@
 
 # useful link
 - [Best practices for writing Dockerfiles | Docker Documentation](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
-- [Docker development best practices | Docker Documentation](https://docs.docker.com/develop/dev-best-practices/#use-cicd-for-testing-and-deployment)
+   - [Create ephemeral containers](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#general-guidelines-and-recommendations)
+   - [Understand build context](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#understand-build-context)
+   - [Exclude with .dockerignore](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#exclude-with-dockerignore)
+   - [Use multi-stage builds](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#use-multi-stage-builds)
+   - [Decouple applications](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#decouple-applications)
+   - [Leverage build cache](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#leverage-build-cache)
+   - [RUN](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#run)
+   - [ENV](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#env)
+   - [EXPOSE](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#expose)
+   - [ADD or COPY](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#add-or-copy)
+   - [USER](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#user)
+   - [WORKDIR](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#workdir)
+   
 - [Use multi-stage builds | Docker Documentation](https://docs.docker.com/develop/develop-images/multistage-build/)
+- [Docker development best practices | Docker Documentation](https://docs.docker.com/develop/dev-best-practices/#use-cicd-for-testing-and-deployment)
 
 ## questions
 - [What is the difference between "expose" and "publish" in Docker? - Stack Overflow](https://stackoverflow.com/questions/22111060/what-is-the-difference-between-expose-and-publish-in-docker)
