@@ -1,6 +1,10 @@
 # Docker sample
 
- - https://docs.docker.com/get-started/
+## catch up Docker
+
+ - [Get Started, Part 1: Orientation and setup | Docker Documentation](https://docs.docker.com/v17.09/get-started/)
+ - [Get Started, Part 2: Containers | Docker Documentation](https://docs.docker.com/v17.09/get-started/part2/)
+ - [Get Started, Part 3: Services | Docker Documentation](https://docs.docker.com/v17.09/get-started/part3/) - only until docker-compose part
 
 # useful tool
 
@@ -29,8 +33,6 @@
 
 - [Get Started, Part 2: Containers | Docker Documentation](https://docs.docker.com/get-started/part2/#run-the-app)
  > This port remapping of 4000:80 demonstrates the difference between EXPOSE within the Dockerfile and what the publish value is set to when running docker run -p. In later steps, map port 4000 on the host to port 80 in the container and use http://localhost.
-
-- what is layer?
 
 ## debug
 - [Dockerfileを作っている最中にデバッグするときの基本的な手順 | GENDOSU@NET](https://gendosu.jp/archives/2838)
